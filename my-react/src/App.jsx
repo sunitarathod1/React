@@ -1,6 +1,7 @@
 // import UseState from './UseState'
 import React from 'react'
-import UseRef from './UseRef'
+import UseRef1 from './UseRef1'
+// import UseRef from './UseRef'
 // import UseState2 from './UseState2'
 // import CompA from "./props./CompA"
 // import CompB from "./props./CompB"
@@ -18,7 +19,8 @@ const App = () => {
         {/* <Prop1/> */}
         {/* <Props2/> */}
         {/* <UseEffect/> */}
-        <UseRef/>
+        {/* <UseRef/> */}
+        <UseRef1/>~
 
 
     </div>

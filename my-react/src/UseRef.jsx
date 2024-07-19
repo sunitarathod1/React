@@ -6,16 +6,21 @@ const UseRef = () => {
 
     const RefInc=()=>{
         inputRef.current = inputRef.current+1;
-        console.log(inputRef.current)
+        console.log(inputRef.current.className)
+        
     }
   return (
-    <div>UseRef
-        <h1>
-            {inputRef.current}
-        </h1>
+    <div>useRef<input
+             Data=       {inputRef.current}
+        
+         ref={inputRef} className="helloo"/>
+        
+        <input type='text' placeholder='welcome' ref={inputRef}/>
         <button onClick={RefInc}> click me! </button>
+        
+        
     </div>
-  )
-}
+  );
+};
 
 export default UseRef
